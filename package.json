@@ -7,7 +7,7 @@
     "dev": "vite",
     "dev:story": "vite --open /story.html",
     "dev:cinematic": "vite --open /different%20story/index.html",
-    "build": "vite build",
+    "build": "vite build && cp \"dist/different story/index.html\" dist/index.html",
     "preview": "vite preview"
   },
   "dependencies": {
