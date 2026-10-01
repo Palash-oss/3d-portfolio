@@ -1,9 +1,1 @@
-{
-  "redirects": [
-    {
-      "source": "/",
-      "destination": "/story.html",
-      "permanent": false
-    }
-  ]
-}
+{ "rewrites": [ { "source": "/", "destination": "/different story/index.html" }, { "source": "/assets/(.*)", "destination": "/assets/$1" }, { "source": "/(.*)", "destination": "/different story/$1" } ] }
